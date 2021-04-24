@@ -1,0 +1,5 @@
+print("Hola, introduce tres números por favor")
+a=int(input("Primero > "))
+b=int(input("Segundo > "))
+c=int(input("Tercero > "))
+print("El máximo es "+str(max(a,b,c))+" y el mínimo es "+str(min(a,b,c)))
